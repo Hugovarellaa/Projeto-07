@@ -1,0 +1,12 @@
+{
+  "name": "Novo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hugovarellaa/Novo.git",
+  "author": "Hugo Alves Varella <hugovarellaa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
