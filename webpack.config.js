@@ -15,8 +15,9 @@ module.exports = {
     },
     devServer: {
         static: {
-            directory: path.resolve(__dirname, 'public')
-        }
+            directory: path.resolve(__dirname, 'public'),
+        },  
+       
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -28,12 +29,12 @@ module.exports = {
             {
                 test: /\.jsx$/,
                 exclude: /node_modules/,
-                use: "babel-loader"
+                use:  "babel-loader",   
             },
             {
                 test: /\.scss$/,
                 exclude: /node_modules/,
-                use: ["style-loader" , "css-loader" , "sass-loader"]
+                use: ["style-loader", "css-loader", "sass-loader"]
             }
         ]
     }

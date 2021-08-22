@@ -1,7 +1,12 @@
+import { RepositoryList } from './components/RepositoryList'
 import './styles/global.scss'
 
-export function App(){
+export function App() {
+
+
     return (
-        <h1>quero ver</h1>
+        <>
+            <RepositoryList />
+        </>
     )
 }
