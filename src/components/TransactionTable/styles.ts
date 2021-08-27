@@ -23,6 +23,12 @@ export const Container = styled.form`
       font-weight: 400;
       color: var(--text-body);
 
+      &.deposit{
+        color: var(--green)
+      }
+      &.withdraw{
+        color: var(--red)
+      }
       &:first-child {
         color: var(--text-title);
       }
