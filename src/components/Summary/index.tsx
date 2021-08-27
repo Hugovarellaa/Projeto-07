@@ -23,14 +23,14 @@ export function Summary() {
         <strong>-R$ 700,00</strong>
       </div>
 
-      <div>
+      <div className="green">
         <header>
           <p>total</p>
           <img src={totalImg} alt="Total" />
         </header>
         <strong>R$ 800,00</strong>
       </div>
-      
+
     </Container>
   );
 }
