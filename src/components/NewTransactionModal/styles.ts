@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { darken } from "polished";
+import { darken, transparentize } from "polished";
 
 export const Container = styled.form`
   h2 {
@@ -68,7 +68,7 @@ export const RadioBox = styled.button<RadioBoxProps>`
   border-radius: 0.25rem;
 
   background: ${(props) => (props.isActive 
-    ? colors[props.activeColor]
+    ? transparentize(0.8,  colors[props.activeColor])
     : "transparent")};
 
   display: flex;
