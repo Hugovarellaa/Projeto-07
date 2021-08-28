@@ -53,13 +53,13 @@ export const Content = styled.div`
 `;
 
 const colors = {
-  green: "#33cc95",
   red: "#e52e4d",
+  green: "#33cc95",
 };
 
 interface RadioBoxProps {
   isActive: boolean;
-  activeColor: 'green' | "red";
+  activeColor: 'green' | 'red';
 }
 
 export const RadioBox = styled.button<RadioBoxProps>`
